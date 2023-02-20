@@ -13,8 +13,8 @@
         <header>
             <nav class="navbar">
                 <ul class="menu" id="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
                     <li><a href="#">Habilidades</a></li>
                 </ul>
                 <div class="toggle-menu"> <!-- Hamburguer menu for mobile version-->
@@ -24,10 +24,10 @@
             </nav>
         </header>
 
-        <main class="main">
+        <main class="main" id="main">
             <div class="info-content">
                 <h1>Soy Cristian Hernández Bautista</h1>
-                <p>Me enfocó en el desarrollo de aplicaciones para android. Me gustan los videojuegos y tengo como propósito el aprendizaje de tecnologias afines a ello.</p>
+                <p>Me enfocó en el desarrollo de aplicaciones para android. Tengo experiencia con Java y Kotlin, y he desarollado una aplicación en Flutter. Me gustan los videojuegos y tengo como propósito el aprendizaje de tecnologias afines a ello.</p>
                 <a href="https://cristianhdez12.github.io/portfolio/files/CV-Cristian Hernández Bautista.pdf" target="_blank">
                     <button class="download-cv">Descargar CV</button>
                 </a>
@@ -36,7 +36,7 @@
         </main>
     </div>
 
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="portfolio-heading">
             <h2>Mi portafolio</h2>
         </div>
@@ -44,27 +44,30 @@
         <div class="container">
             <!-- Project 1-->
             <div class="card">
-                <div class="card_img"></div>
+                <div class="card_img">
+                    <img src="img/historical_places_logo.png" alt="Logo de lugares históricos" width="150px">
+                </div>
                 <div class="card_title">
-                    <h2>Descripición del proyecto</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni reiciendis illo debitis nobis porro rem ipsa eius? Maxime placeat sequi temporibus ipsa, eligendi</p>
+                    <h2>Lugares históricos</h2>
+                    <p>Aplicación para ver los diferentes lugares históricos del mundo.</p>
                 </div>
                 <div class="card_project_links">
-                    <a href="#" target="_blank">
+                    <a href="https://github.com/CristianHdez12/historical_places" target="_blank">
                         <i class="fa-brands fa-github"></i>
                     </a>
+                    <!--
                     <a href="#">
                         <i class="fa-solid fa-code"></i>
-                    </a>
+                    </a>-->
                 </div>
-                <a href="#">
+                <a href="historical_places_detail.html">
                     <button class="project-details download-cv">
                         Detalles del projecto
                     </button>
                 </a>
             </div>
 
-            <!-- Project 2-->
+            <!-- Project 2
             <div class="card">
                 <div class="card_img"></div>
                 <div class="card_title">
@@ -84,7 +87,7 @@
                         Detalles del projecto
                     </button>
                 </a>
-            </div>
+            </div>-->
         </div>
     </div>
 
